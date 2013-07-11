@@ -4,14 +4,14 @@
 
 ```
 d62 = DigitConvertor.new [('0'..'9'), ('a'..'z'), ('A'..'Z')].map {|r| r.to_a }.flatten
-p d62.to(98798798735665662) #=> "7iuYfThXxc"
-p d62.from("7iuYfThXxc")    #=> 98798798735665662
+d62.to(98798798735665662) #=> "7iuYfThXxc"
+d62.from("7iuYfThXxc")    #=> 98798798735665662
 ```
 
 ```
 d8 = DigitConvertor.new %w{☆ ★ ♪ △ ▼ ○ ● ◎}
 d8.to(987987987) #=> "◎♪◎☆◎☆☆☆♪△"
-d8.from("◎♪◎☆◎☆☆☆♪△") #=>
+d8.from("◎♪◎☆◎☆☆☆ 987987987
 ```
 
 # Authors
