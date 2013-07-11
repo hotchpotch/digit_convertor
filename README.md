@@ -1,4 +1,7 @@
+
 # DigitConvertor
+
+[![Build Status](https://travis-ci.org/hotchpotch/digit_convertor.png?branch=master)](https://travis-ci.org/hotchpotch/digit_convertor)
 
 # Usage
 
